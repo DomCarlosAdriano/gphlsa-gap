@@ -119,7 +119,7 @@ header{
 
 h1{
   letter-spacing: 1px;
-  width: 70%;
+  width: 60%;
   color: var(--color-white);
   text-align: center;
   font-size: 5rem;
@@ -211,8 +211,8 @@ display: none;
 .box-evento{
   background: var(--color-bg1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  width: 31.6rem;
-  height: 58rem;
+  width: 27rem;
+  height: 57.8rem;
   border-radius: 8px;
   padding: 4rem 1.2rem;
 
