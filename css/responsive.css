@@ -171,6 +171,13 @@
     width: 100%;
   }
 
+  footer{
+    padding: 1.5rem;
+  }
+
+  footer .footer-container img{
+    display: none;
+  }
 
 }
 

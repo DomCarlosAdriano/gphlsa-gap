@@ -249,5 +249,38 @@ footer{
   margin-top: 5rem;
   background: #1f2641;
   width: 100vw;
-  height: 8rem;
+  padding: 5rem 5rem 3rem;
+  display: flex;
+ flex-direction: column;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+footer div label{
+  font-size: 2rem;
+}
+
+footer div ul{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+footer div ul li a{
+  font-size: 1.3rem;
+  text-decoration: underline;
+
+}
+
+footer div ul li a i{
+  margin-right: 1rem;
 }
