@@ -144,12 +144,16 @@ header p{
 
 header a{
   cursor: pointer;
-  padding: 2.2rem;
+  padding: 1.5rem;
   font-size: 1.5rem;
   border-radius: 8px;
   color: var(--color-white);
   font-weight: 700;
   background: var(--color-success) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 /* =========== MAIN =========== */
@@ -233,7 +237,7 @@ display: none;
 
 #revista .revistas{
  display: flex;
- gap: 2rem;
+ gap: 4rem;
  flex-wrap: wrap;
 }
 
