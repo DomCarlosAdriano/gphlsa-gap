@@ -156,7 +156,7 @@ header button{
 }
 
 #sobre h2{
-  color: var(--color-success);
+  color: var(--color-bg2);
   text-align: center;
   font-size: 2.3rem;
 }
@@ -189,11 +189,54 @@ display: none;
 
 #eventos{
   padding-top: 7rem;
-  
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 #eventos h2{
-  color: var(--color-success);
+  color: var(--color-bg2);
   text-align: center;
   font-size: 2.3rem;
+}
+
+.boxes-eventos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.box-evento{
+  background: var(--color-bg1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  width: 35rem;
+  height: fit-content;
+  border-radius: 8px;
+  padding: 4rem 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.box-evento h3{
+  font-weight: 800;
+  color: var(--color-danger);
+  font-size: 1.4rem;
+  width: fit-content;
+  text-align: center;
+
+}
+
+.box-evento p{
+  width: fit-content;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.box-evento img{
+  width: 67%;
+  border-radius: 8px;
 }

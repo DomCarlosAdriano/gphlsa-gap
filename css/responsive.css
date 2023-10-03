@@ -139,7 +139,10 @@
     width: 17rem;
     float: none;
     margin-right: 0;
-    
+   }
+
+  .sobre-text-img.float figure img{
+    margin-left: 0;
    }
 
    figure{
