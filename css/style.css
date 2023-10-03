@@ -165,11 +165,11 @@ header button{
   color: var(--color-black);
   width: 100%;
   text-align: left;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .sobre-text-img figure img{
-  width: 30rem;
+  width: 25rem;
   height: fit-content; 
   border-radius: 8px;
   border: 5px solid gainsboro; 
@@ -203,14 +203,16 @@ display: none;
 .boxes-eventos{
   display: flex;
   flex-wrap: wrap;
+  
   gap: 2rem;
+
 }
 
 .box-evento{
   background: var(--color-bg1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  width: 35rem;
-  height: fit-content;
+  width: 32.17rem;
+  height: 56rem;
   border-radius: 8px;
   padding: 4rem 1.2rem;
 

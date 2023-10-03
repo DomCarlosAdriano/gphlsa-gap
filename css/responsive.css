@@ -163,6 +163,10 @@
     display: inline-block;
   }
 
+  .box-evento{
+    height: fit-content;
+  }
+
 
 }
 
