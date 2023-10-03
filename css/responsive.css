@@ -167,6 +167,10 @@
     height: fit-content;
   }
 
+  .box-evento h3{
+    width: 100%;
+  }
+
 
 }
 
