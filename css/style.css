@@ -33,6 +33,7 @@
 
  html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
  }
  
  body {
@@ -240,4 +241,13 @@ display: none;
 .box-evento img{
   width: 67%;
   border-radius: 8px;
+}
+
+/* ========== footer ========= */
+
+footer{
+  margin-top: 5rem;
+  background: #1f2641;
+  width: 100vw;
+  height: 8rem;
 }
