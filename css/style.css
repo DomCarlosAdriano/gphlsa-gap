@@ -212,7 +212,7 @@ display: none;
   background: var(--color-bg1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   width: 32.17rem;
-  height: 56rem;
+  height: 58rem;
   border-radius: 8px;
   padding: 4rem 1.2rem;
 
@@ -224,7 +224,7 @@ display: none;
 
 .box-evento h3{
   font-weight: 800;
-  color: var(--color-danger);
+  color: var(--color-warning);
   font-size: 1.4rem;
   width: fit-content;
   text-align: center;
