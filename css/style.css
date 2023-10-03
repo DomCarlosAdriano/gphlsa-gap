@@ -128,6 +128,12 @@ h1{
    
 }
 
+h2{
+  color: var(--color-bg2);
+  text-align: center;
+  font-size: 2.3rem;
+}
+
 header p{
   text-align: center;
   width: 45%;
@@ -136,7 +142,7 @@ header p{
   font-style: italic;
 }
 
-header button{
+header a{
   cursor: pointer;
   padding: 2.2rem;
   font-size: 1.5rem;
@@ -156,20 +162,15 @@ header button{
   gap: 3rem;
 }
 
-#sobre h2{
-  color: var(--color-bg2);
-  text-align: center;
-  font-size: 2.3rem;
-}
 
-#sobre p{
+#sobre p, #integrantes p{
   color: var(--color-black);
   width: 100%;
   text-align: left;
   font-size: 1.3rem;
 }
 
-.sobre-text-img figure img{
+.text-img figure img{
   width: 25rem;
   height: fit-content; 
   border-radius: 8px;
@@ -179,7 +180,7 @@ header button{
 }
 
 
-.sobre-text-img.float figure img{
+.text-img.float figure img{
   float: right;
   margin-left: 1rem;
 } 
@@ -195,11 +196,6 @@ display: none;
   gap: 3rem;
 }
 
-#eventos h2{
-  color: var(--color-bg2);
-  text-align: center;
-  font-size: 2.3rem;
-}
 
 .boxes-eventos{
   display: flex;
@@ -249,7 +245,7 @@ footer{
   margin-top: 5rem;
   background: #1f2641;
   width: 100vw;
-  padding: 5rem 5rem 3rem;
+  padding: 3rem 5rem 3rem;
   display: flex;
  flex-direction: column;
 }
@@ -257,6 +253,11 @@ footer{
 .footer-container{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container img{
+  width: 15rem;
 }
 
 footer p{
