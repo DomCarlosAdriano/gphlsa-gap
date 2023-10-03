@@ -239,6 +239,13 @@ display: none;
   border-radius: 8px;
 }
 
+#integrantes{
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 /* ========== footer ========= */
 
 footer{
