@@ -155,7 +155,7 @@ header a{
 /* =========== MAIN =========== */
 
 
-#sobre{
+#sobre, #eventos, #integrantes, #revista{
   padding-top: 7rem;
   display: flex;
   flex-direction: column;
@@ -188,14 +188,6 @@ header a{
 figcaption {
 display: none;
 }
-
-#eventos{
-  padding-top: 7rem;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-
 
 .boxes-eventos{
   display: flex;
@@ -239,12 +231,31 @@ display: none;
   border-radius: 8px;
 }
 
-#integrantes{
-  padding-top: 7rem;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
+#revista .revistas{
+ display: flex;
+ gap: 2rem;
+ flex-wrap: wrap;
 }
+
+#revista .revistas .edicao a img{
+  width: 30rem;
+  height: 40rem;
+  background-color:cornflowerblue;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+}
+
+#revista .revistas .edicao a h3{
+  color: var(--color-danger);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  text-decoration: underline;
+}
+
 
 /* ========== footer ========= */
 
@@ -264,7 +275,10 @@ footer{
 }
 
 .footer-container img{
-  width: 15rem;
+  width: 20rem;
+  background: #ffffffe0;
+  padding: 1rem;
+  border-radius: 8px;
 }
 
 footer p{

@@ -109,7 +109,7 @@
     width: fit-content;
    }
 
-   header button{
+   header a{
     padding: 1.2rem;
     width: 85%;
     font-size: 1rem;
@@ -129,19 +129,19 @@
     font-size: 1.2rem;
    }
 
-   .sobre-text-img{
+   .text-img{
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
    
-   .sobre-text-img figure img{
+   .text-img figure img{
     width: 17rem;
     float: none;
     margin-right: 0;
    }
 
-  .sobre-text-img.float figure img{
+  .text-img.float figure img{
     margin-left: 0;
    }
 
@@ -169,6 +169,11 @@
 
   .box-evento h3{
     width: 100%;
+  }
+
+  #revista .revistas .edicao a img{
+    width: 21rem;
+    height: 29rem;
   }
 
   footer{
